@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="utils.css" />
   </head>
-  <body class="overflow-hidden">
+  <body class="overflow-x-hidden">
     <div class="container mx-auto">
       <header>
         <nav class="flex justify-between">
-          <div class="logo font-bold flex items-center text-blue">
+          <div class="logo font-bold flex items-center text-pink">
             nabiha-khan
           </div>
           <ul class="navbar flex items-center">
@@ -26,10 +26,15 @@
       </header>
       <main class="min-h-screen">
         <section class="section1">
-          <div class="flex items-center">
+          <div class="flex">
             <div class="topleft flex justify-center flex-col px-2">
-              <h1 class="my-1">the best fiteness gym</h1>
-              <p>
+              <div class="text-center">
+                <img class="dumbellimg" src="images/dumbel.png" alt="" />
+              </div>
+              <h1 class="my-1 text-center">
+                the best fiteness gym in the town is here
+              </h1>
+              <p class="text-center">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Aliquid, sed, obcaecati labore quae cumque voluptatum mollitia
                 temporibus perspiciatis beatae, voluptatem consectetur ducimus
@@ -37,13 +42,57 @@
                 corrupti neque distinctio iusto qui, consequatur nisi.
               </p>
             </div>
-            <div class="topright">
-              <img src="images/gym.jpg" alt="" />
+            <div class="topright flex justify-center">
+              <img class="gymimg" src="images/gym.jpg" alt="" />
             </div>
           </div>
         </section>
         <hr />
-        <section></section>
+        <section class="section2">
+          <h1 class="text-center my-2">pricing</h1>
+          <p class="my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+            dolore nam, architecto facilis sed id voluptatibus quis magnam!
+            Minima molestiae sequi repudiandae iusto sunt suscipit praesentium
+            ipsam assumenda amet magnam adipisci exercitationem, hic, molestias
+            esse cupiditate reprehenderit deleniti nemo soluta tenetur. Officia!
+          </p>
+          <div class="boxes flex justify-center">
+            <div class="box">
+              <h2>Free</h2>
+              <ul>
+                <li class="highlighted">₨0/month</li>
+                <li>10 users included</li>
+                <li>2GB of storage</li>
+                <li>Email support</li>
+                <li>>Help center access</li>
+                <li><button class="btn">Signup Now</button></li>
+              </ul>
+            </div>
+            <div class="box">
+              <h2>Pro</h2>
+              <ul>
+                <li class="highlighted">₨15/month</li>
+                <li>20 users included</li>
+                <li>10GB of storage</li>
+                <li>Priority email support</li>
+                <li>>Help center access</li>
+                <li><button class="btn">Signup Now</button></li>
+              </ul>
+            </div>
+            <div class="box">
+              <h2>Enterprise</h2>
+              <ul>
+                <li class="highlighted">₨29/month</li>
+                <li>30 users included</li>
+                <li>15GB of storage</li>
+                <li>Phone and email support</li>
+                <li>Help center access</li>
+                <li><button class="btn">Signup Now</button></li>
+              </ul>
+            </div>
+          </div>
+        </section>
         <hr />
         <section></section>
         <hr />

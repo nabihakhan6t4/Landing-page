@@ -20,14 +20,55 @@
 
 .topleft {
   width: 50%;
-  height: 50vh;
 }
 .topright {
-  height: 50vh;
   width: 50%;
 }
 .section1 {
+  max-height: 100vh;
+}
+.section1 h1 {
+  font-size: 2rem;
 }
 .logo {
   font-size: 1.3rem;
+}
+.dumbellimg {
+  width: 289px;
+}
+.topright .gymimg {
+  width: 466px;
+}
+.section2 {
+  padding-left: 63px;
+  padding-right: 63px;
+}
+.section2 h1 {
+  font-size: 2.3rem;
+}
+.section2 p {
+  padding: 0 8vw;
+  text-align: center;
+}
+.box {
+  padding: 8px 0;
+  margin: 12px 22px;
+  min-width: 20vw;
+  border-radius: 8px;
+  border: 2px solid #fe7fda;
+  text-align: center;
+}
+.box h2 {
+  font-size: 2rem;
+  padding: 15px 0;
+}
+.highlighted {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.box ul {
+  list-style: none;
+}
+.box ul li {
+  margin: 12px 2px;
 }
