@@ -40,8 +40,7 @@
   width: 466px;
 }
 .section2 {
-  padding-left: 63px;
-  padding-right: 63px;
+  padding: 73px;
 }
 .section2 h1 {
   font-size: 2.3rem;
@@ -71,4 +70,35 @@
 }
 .box ul li {
   margin: 12px 2px;
+}
+.plantable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section3 table {
+  width: 100%;
+  margin-bottom: 140px 0;
+  margin-top: 20px 0;
+
+  border-collapse: collapse;
+}
+.section3 table th {
+  width: 23vw;
+  border-bottom: 2px solid black;
+  padding: 15px 0;
+}
+.section3 table td {
+  border-bottom: 2px solid black;
+}
+
+.section3 h1 {
+  font-size: 2.3rem;
+}
+.section3 {
+  padding: 73px;
+}
+footer{
+  padding: 23px;
+  text-align: center;
 }
