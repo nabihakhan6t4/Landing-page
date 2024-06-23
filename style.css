@@ -98,7 +98,29 @@
 .section3 {
   padding: 73px;
 }
-footer{
+footer {
   padding: 23px;
   text-align: center;
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  header {
+    width: 100%;
+  }
+  header nav ul li {
+    display: none;
+    padding: 12px 0;
+  }
+  .section1{
+    width: 100%;
+  }
+  .topleft{
+    width: 50%;
+  }
+  .topright{
+    width: 50%;
+  }
+  .gymimg{
+    width: 25px;
+  }
 }
