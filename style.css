@@ -1,126 +1,155 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+}
 
-* {
-  margin: 0;
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.navbar {
+  color: #ffffff;
+}
+
+.navbar-brand {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.navbar-toggler-icon {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107;
+}
+
+.hero-section {
+  background-image: url("images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 100px 0;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.pricing-header {
+  padding: 80px 0;
+  text-align: center; 
+}
+
+.text-body-emphasis {
+  color: #343a40; 
+}
+
+.text-body-secondary {
+  color: #6c757d; 
+}
+
+.pricing-header {
+  padding: 80px 0;
+}
+
+.pricing-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pricing-header p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.pricing-card {
+  margin-bottom: 30px;
+}
+
+.pricing-card .card-header {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.pricing-card .card-body {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+}
+
+.pricing-card .card-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.pricing-card ul {
+  list-style-type: none;
   padding: 0;
 }
-.container {
-  max-width: 80vw;
-  font-family: "Ubuntu", sans-serif;
-}
-.navbar {
-  display: flex;
-  height: 67px;
-  font-family: "Ubuntu", sans-serif;
-}
-.navbar li {
-  list-style: none;
-  margin: 0 12px;
+
+.pricing-card ul li {
+  margin-bottom: 10px;
 }
 
-.topleft {
-  width: 50%;
-}
-.topright {
-  width: 50%;
-}
-.section1 {
-  max-height: 100vh;
-}
-.section1 h1 {
-  font-size: 2rem;
-}
-.logo {
-  font-size: 1.3rem;
-}
-.dumbellimg {
-  width: 289px;
-}
-.topright .gymimg {
-  width: 466px;
-}
-.section2 {
-  padding: 73px;
-}
-.section2 h1 {
-  font-size: 2.3rem;
-}
-.section2 p {
-  padding: 0 8vw;
-  text-align: center;
-}
-.box {
-  padding: 8px 0;
-  margin: 12px 22px;
-  min-width: 20vw;
-  border-radius: 8px;
-  border: 2px solid #fe7fda;
-  text-align: center;
-}
-.box h2 {
-  font-size: 2rem;
-  padding: 15px 0;
-}
-.highlighted {
-  font-size: 1.2rem;
-  font-weight: bolder;
-}
-.box ul {
-  list-style: none;
-}
-.box ul li {
-  margin: 12px 2px;
-}
-.plantable {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.section3 table {
-  width: 100%;
-  margin-bottom: 140px 0;
-  margin-top: 20px 0;
-
-  border-collapse: collapse;
-}
-.section3 table th {
-  width: 23vw;
-  border-bottom: 2px solid black;
-  padding: 15px 0;
-}
-.section3 table td {
-  border-bottom: 2px solid black;
+.pricing-card .btn {
+  background-color: #343a40;
+  color: #ffffff;
+  border: 1px solid #343a40;
 }
 
-.section3 h1 {
-  font-size: 2.3rem;
-}
-.section3 {
-  padding: 73px;
-}
-footer {
-  padding: 23px;
-  text-align: center;
+.pricing-card .btn:hover {
+  background-color: #ffffff;
+  color: #343a40;
 }
 
-@media screen and (min-width: 0px) and (max-width: 480px) {
-  header {
-    width: 100%;
+.footer {
+  color: #ffffff;
+  padding: 50px 0;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer ul li a:hover {
+  color: #ffc107;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
   }
-  header nav ul li {
-    display: none;
-    padding: 12px 0;
+
+  .navbar-nav .nav-item {
+    margin-bottom: 15px;
   }
-  .section1{
-    width: 100%;
-  }
-  .topleft{
-    width: 50%;
-  }
-  .topright{
-    width: 50%;
-  }
-  .gymimg{
-    width: 25px;
+
+  .hero-section {
+    padding: 80px 0;
   }
 }
